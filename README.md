@@ -10,7 +10,8 @@ This project is a miniature **Ground Control Station (GCS)** system designed for
 - **Ground Control Station (`yer_control.py`):** Acts as the server, hosting a modern GUI using `customtkinter` and rendering real-time graphs with `matplotlib`.
 
 ## 📸 Screenshots
-*(Buraya az önce bana attığın o harika çalışan arayüz ekran görüntüsünü yükle!)*
+<img width="1918" height="1005" alt="graphic" src="https://github.com/user-attachments/assets/e6ba967b-6df6-4313-af9a-a896851e2f41" />
+
 
 ## 🚀 How to Run
 1. Clone the repository.
