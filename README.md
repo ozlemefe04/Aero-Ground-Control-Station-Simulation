@@ -1,11 +1,11 @@
 # Aero-Ground-Control-Station-Simulation
 A Python &amp; Socket-based Miniature Ground Control Station (GCS) that visualizes real-time UAV/Satellite telemetry data over TCP/IP network.
 
-# 🛰️ Aero Ground Control Station (GCS) & Telemetry Simulator
+# Aero Ground Control Station (GCS) & Telemetry Simulator
 
 This project is a miniature **Ground Control Station (GCS)** system designed for UAVs and satellites. It establishes a local network architecture using Python's `socket` programming to capture and visualize real-time aeronautical data (temperature, stability status) over a TCP/IP connection.
 
-## 🛠️ System Architecture
+## System Architecture
 - **UAV/Satellite Simulator (`iha_simulasyon.py`):** Acts as the client, generating and serializing simulated sensor data (temperature and motion status) and transmitting it via port 50005.
 - **Ground Control Station (`yer_control.py`):** Acts as the server, hosting a modern GUI using `customtkinter` and rendering real-time graphs with `matplotlib`.
 
@@ -13,7 +13,7 @@ This project is a miniature **Ground Control Station (GCS)** system designed for
 <img width="1918" height="1005" alt="graphic" src="https://github.com/user-attachments/assets/e6ba967b-6df6-4313-af9a-a896851e2f41" />
 
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository.
 2. Install dependencies:
    ```bash
