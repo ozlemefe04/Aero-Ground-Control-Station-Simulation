@@ -7,21 +7,17 @@ This project is a miniature **Ground Control Station (GCS)** system designed for
 
 ## System Architecture
 - **UAV/Satellite Simulator (`iha_simulasyon.py`):** Acts as the client, generating and serializing simulated sensor data (temperature and motion status) and transmitting it via port 50005.
-- **Ground Control Station (`yer_control.py`):** Acts as the server, hosting a modern GUI using `customtkinter`.
+- **Ground Control Station (`yer_control.py`):** Acts as the server
 
 
 
 ## How to Run
 1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   py -m pip install customtkinter matplotlib
-   ```
-3. First, start the Ground Control Station (Server):
+2. First, start the Ground Control Station (Server):
    ```bash
    py yer_control.py
    ```
-4. Then, run the UAV Simulator (Client):
+3. Then, run the UAV Simulator (Client):
    ```bash
    py iha_simulasyon.py
    ```
